@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+//This makes custom annotation 'FamilyBudget' to be applied to only methods
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @interface FamilyBudget {
